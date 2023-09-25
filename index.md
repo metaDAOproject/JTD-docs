@@ -3,7 +3,7 @@ title: Introduction
 layout: home
 ---
 
-The Meta-DAO is a new experiment in human coordination. It will be the first instance of
+**The Meta-DAO** is a new experiment in human coordination. It will be the first instance of
 [futarchy](http://mason.gmu.edu/~rhanson/futarchy.html),
 a novel governance mechanism invented by economist Robin Hanson in 2000. 
 
