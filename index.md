@@ -3,15 +3,15 @@ title: Introduction
 layout: home
 ---
 
-**The Meta-DAO** is a new experiment in human coordination. It will be the first instance of
-[futarchy](http://mason.gmu.edu/~rhanson/futarchy.html),
-a novel governance mechanism invented by economist Robin Hanson in 2000. 
+# What is the Meta-DAO?
 
-These docs serve as an approachable introduction to the Meta-DAO, answering
-questions like:
+The Meta-DAO is a new cybernetic institution, comprised of human contributors
+and programs stored on [the Solana blockchain](https://solana.com/). While legacy
+institutions make decisions via vote or decree, the Meta-DAO makes them via markets.
 
-- What is futarchy? Why does it matter?
-- How, specifically, does the Meta-DAO use futarchy?
-- How will the bootstrapping event work?
-- Who are the Meta-DAO's creator(s)?
+## Who created the Meta-DAO?
+
+## How does it work?
+
+## How can I get involved?
 
