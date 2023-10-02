@@ -13,7 +13,7 @@ nav_order: 2
 > *Wikipedia*, [September 2023 Edition](http://web.archive.org/web/20230922203543/https://en.wikipedia.org/wiki/Institution)
 
 Institutions are important. By shaping our collective decisions and actions,
-they can decide whether our societies prosper or falter. 
+they decide whether our societies prosper or falter. 
 
 Consider, for example,
 the difference of livelihood between the average Somali and the average German.
