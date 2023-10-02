@@ -51,16 +51,16 @@ new alternative system. While [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin)
 provides an alternative money and [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance)
 provides an alternative financial system, we need an alternative society.
 
-[1]: https://data.worldbank.org/country/SO
-[2]: https://data.unicef.org/country/som/
-[3]: https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/somalia-travel-advisory.html/
-[4]: https://www.statista.com/statistics/416207/average-annual-wages-germany-y-on-y-in-euros/
-[5]: https://data.oecd.org/germany.htm#profile-education
-[6]: http://www.ralphmerkle.com/papers/DAOdemocracyDraft.pdf
-[7]: https://archive.org/details/gilens_and_page_2014_-testing_theories_of_american_politics.doc/mode/2up
-[8]: https://hbr.org/1990/05/ceo-incentives-its-not-how-much-you-pay-but-how
-[9]: https://www.amazon.com/Barbarians-Gate-Fall-RJR-Nabisco-ebook/dp/B000FC10QG
-[10]: https://www.oecd.org/daf/ca/corporategovernanceprinciples/1857291.pdf
-[11]: https://www.garretthardinsociety.org/articles/art_tragedy_of_the_commons.html
-[12]: https://www.amazon.com/Logic-Collective-Action-Printing-Appendix/dp/0674537513
+[^1]: https://data.worldbank.org/country/SO
+[^2]: https://data.unicef.org/country/som/
+[^3]: https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/somalia-travel-advisory.html/
+[^4]: https://www.statista.com/statistics/416207/average-annual-wages-germany-y-on-y-in-euros/
+[^5]: https://data.oecd.org/germany.htm#profile-education
+[^6]: http://www.ralphmerkle.com/papers/DAOdemocracyDraft.pdf
+[^7]: https://archive.org/details/gilens_and_page_2014_-testing_theories_of_american_politics.doc/mode/2up
+[^8]: https://hbr.org/1990/05/ceo-incentives-its-not-how-much-you-pay-but-how
+[^9]: https://www.amazon.com/Barbarians-Gate-Fall-RJR-Nabisco-ebook/dp/B000FC10QG
+[^10]: https://www.oecd.org/daf/ca/corporategovernanceprinciples/1857291.pdf
+[^11]: https://www.garretthardinsociety.org/articles/art_tragedy_of_the_commons.html
+[^12]: https://www.amazon.com/Logic-Collective-Action-Printing-Appendix/dp/0674537513
 
