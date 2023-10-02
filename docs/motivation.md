@@ -17,17 +17,16 @@ they can decide whether our societies prosper or falter.
 
 Consider, for example,
 the difference of livelihood between the average Somali and the average German.
-In a country where murder and kidnapping are common,
+In a country where murder and kidnapping are common[^1],
 42% of the population doesn't have access to basic drinking
-water services, and GDP per capita is only $462,
-the average Somali lives in bleak circumstances.[^1][^2][^3]
-The average German, on the other hand, earns 45,457 Euros per year, has access
-to secondary and tertiary education, and lives without the fear of terrorists
-capturing and plundering their town.[^4][^5] 
-
-The difference is not that the
-Germans are intrinsically peaceful creatures and the Somalis are not or that
-Germany is stocked full of natural resources while Somalia lay barren; the difference
+water services[^2], and GDP per capita is only $462[^3],
+the average Somali lives in bleak circumstances.
+The average German, on the other hand, earns 45,457 Euros per year[^4], has access
+to decent secondary and tertiary education[^5], and lives without the fear of terrorists
+capturing and plundering their town. The difference is not that the
+Germans are intrinsically peaceful creatures and the Somalis are intrinsically violent
+or that
+Germany is stocked full of natural resources while Somalia lays barren; the difference
 is institutions. Germany prospers while Somalia falters because it has superior
 institutions.
 
@@ -37,8 +36,9 @@ institutions.
 > near-zero, statistically non-significant impact upon public policy.
 > [Testing Theories in American Politics: Elites, Interest Groups, and Average Citizens](https://archive.org/details/gilens_and_page_2014_-testing_theories_of_american_politics.doc/mode/2up)
 
-Still, as those of us who live in the Western world know, the institutions we
-have are far from perfect. Because the incentive to research political candidates
+Still, as those of us who live in the Western world know, the comparatively
+superior institutions are far from perfect.
+Because the incentive to research political candidates
 is low, so-called democracies function more like plutocracies.[^6][^7] Because
 boards of directors are insufficiently aligned with shareholders' interests,
 managers are often selected and compensated based on their ability to schmooze
@@ -57,9 +57,9 @@ provides an alternative financial system, we need an alternative society.
 
 ----
 
-[^1]: https://data.worldbank.org/country/SO
+[^1]: https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/somalia-travel-advisory.html/
 [^2]: https://data.unicef.org/country/som/
-[^3]: https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/somalia-travel-advisory.html/
+[^3]: https://data.worldbank.org/country/SO
 [^4]: https://www.statista.com/statistics/416207/average-annual-wages-germany-y-on-y-in-euros/
 [^5]: https://data.oecd.org/germany.htm#profile-education
 [^6]: http://www.ralphmerkle.com/papers/DAOdemocracyDraft.pdf
