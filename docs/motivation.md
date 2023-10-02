@@ -9,7 +9,7 @@ nav_order: 2
 ## Institutions are the driving force of our existence
 
 > An institution is a humanly devised structure of rules and norms that shape
-> and constrain individual behavior.
+> and constrain individual behavior.\
 > *Wikipedia*, [September 2023 Edition](http://web.archive.org/web/20230922203543/https://en.wikipedia.org/wiki/Institution)
 
 Institutions are important. By shaping our collective decisions and actions,
@@ -33,7 +33,7 @@ institutions.
 ## Our institutions are failing us
 
 > The preferences of the average American appear to have only a minuscule, 
-> near-zero, statistically non-significant impact upon public policy.
+> near-zero, statistically non-significant impact upon public policy.\
 > [Testing Theories in American Politics: Elites, Interest Groups, and Average Citizens](https://archive.org/details/gilens_and_page_2014_-testing_theories_of_american_politics.doc/mode/2up)
 
 Still, as those of us who live in the Western world know, the comparatively
