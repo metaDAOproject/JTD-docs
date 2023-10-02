@@ -13,7 +13,9 @@ nav_order: 2
 > *Wikipedia*, [September 2023 Edition](http://web.archive.org/web/20230922203543/https://en.wikipedia.org/wiki/Institution)
 
 Institutions are important. By shaping our collective decisions and actions,
-they can decide whether our societies prosper or falter. Consider, for example,
+they can decide whether our societies prosper or falter. 
+
+Consider, for example,
 the difference of livelihood between the average Somali and the average German.
 In a country where murder and kidnapping are common,
 42% of the population doesn't have access to basic drinking
@@ -21,7 +23,9 @@ water services, and GDP per capita is only $462,
 the average Somali lives in bleak circumstances.[^1][^2][^3]
 The average German, on the other hand, earns 45,457 Euros per year, has access
 to secondary and tertiary education, and lives without the fear of terrorists
-capturing and plundering their town.[^4][^5] The difference is not that the
+capturing and plundering their town.[^4][^5] 
+
+The difference is not that the
 Germans are intrinsically peaceful creatures and the Somalis are not or that
 Germany is stocked full of natural resources while Somalia lay barren; the difference
 is institutions. Germany prospers while Somalia falters because it has superior
@@ -50,6 +54,8 @@ and business managers to become virtuous and smart. Instead, we must create a
 new alternative system. While [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) 
 provides an alternative money and [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance)
 provides an alternative financial system, we need an alternative society.
+
+----
 
 [^1]: https://data.worldbank.org/country/SO
 [^2]: https://data.unicef.org/country/som/
