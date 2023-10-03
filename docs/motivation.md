@@ -17,13 +17,13 @@ they decide whether our societies prosper or falter.
 
 Consider, for example,
 the difference of livelihood between the average Somali and the average German.
-In a country where murder and kidnapping are common[^1],
+In a country where murder and kidnapping are common,
 42% of the population doesn't have access to basic drinking
-water services[^2], and GDP per capita is only $462[^3],
-the average Somali lives in bleak circumstances.
-The average German, on the other hand, earns 45,457 Euros per year[^4], has access
-to decent secondary and tertiary education[^5], and lives without the fear of terrorists
-capturing and plundering their town. The difference is not that the
+water services, and GDP per capita is only $462,
+the average Somali lives in bleak circumstances.[^1]<sup>,</sup>[^2]<sup>,</sup>[^3]
+The average German, on the other hand, earns 45,457 Euros per year, has access
+to decent secondary and tertiary education, and lives without the fear of terrorists
+capturing and plundering their town.[^4]<sup>,</sup>[^5] The difference is not that the
 Germans are intrinsically peaceful creatures and the Somalis are intrinsically violent
 or that
 Germany is stocked full of natural resources while Somalia lays barren; the difference
@@ -39,12 +39,12 @@ institutions.
 Still, as those of us who live in the Western world know, the comparatively
 superior institutions are far from perfect.
 Because the incentive to research political candidates
-is low, so-called democracies function more like plutocracies.[^6] [^7] Because
+is low, so-called democracies function more like plutocracies.[^6]<sup>,</sup>[^7] Because
 boards of directors are insufficiently aligned with shareholders' interests,
 managers are often selected and compensated based on their ability to schmooze
 rather than their ability to drive results.[^8]<sup>,</sup>[^9]<sup>,</sup>[^10] And because economies
 don't reward the creation or maintenance of [public goods](https://metaproph3t.github.io/posts/public_goods.html),
-not enough time or resources goes to creating and maintaining them.[^11][^12]
+not enough time or resources goes to creating and maintaining them.[^11]<sup>,</sup>[^12]
 
 ## A radical new approach is needed
 
