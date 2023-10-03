@@ -9,7 +9,7 @@ nav_order: 3
 ## Futarchy
 
 > Since speculative markets excel at a task where democracies struggle, we might try to
-> improve democracy by having it rely more on speculative markets.
+> improve democracy by having it rely more on speculative markets.\
 > Robin Hanson, *[Shall We Vote on Values, But Bet on Beliefs?](http://hanson.gmu.edu/futarchy2013.pdf)*
 
 The Meta-DAO uses a mechanism called futarchy to make its decisions. Futarchy
@@ -37,7 +37,7 @@ in both markets. If the time-weighted average price (TWAP) is higher in the
 market are reverted. Else, the CEO is fired and all of the trades in the 'retain
 CEO' market are reverted.
 
-In essence, **the market decies which proposals pass or fail**. Markets have
+In essence, **the market decides which proposals pass or fail**. Markets have
 some nice properties, such as strongly incentivizing participants to research
 the decisions in question, giving more power over time to those who have a track
 record of being right, and being hard to manipulate. There is also a large body
@@ -49,14 +49,14 @@ the markets had reflected it so in Morton-Thiakol's share price within 14 minute
 
 ## How the Meta-DAO implements futarchy
 
-The Meta-DAO is implemented as 3 programs on the Solana blockchain:
+The Meta-DAO is implemented as 3 open-source programs on the Solana blockchain:
 - a *conditional vault* program,
 - a *central-limit order book (CLOB)* program,
 - and a program that manages that orchestrates futarchy, named *autocrat* as
 a double-entendre playing on the fact that the program is both *auto*nomous
 and the final arbiter of all DAO decisions.
 
-All code is open-source. *META* is the native token of the DAO.
+Additionally, *META* is the native token of the Meta-DAO.
 
 ### Conditional vault program
 
