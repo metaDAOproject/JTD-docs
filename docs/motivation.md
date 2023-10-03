@@ -12,7 +12,7 @@ nav_order: 2
 > and constrain individual behavior.\
 > *Wikipedia*, [September 2023 Edition](http://web.archive.org/web/20230922203543/https://en.wikipedia.org/wiki/Institution)
 
-Institutions are important. By shaping our collective decisions and actions,
+Institutions are important. By shaping our decisions and actions,
 they decide whether our societies prosper or falter. 
 
 Consider, for example,
@@ -39,10 +39,10 @@ institutions.
 Still, as those of us who live in the Western world know, the comparatively
 superior institutions are far from perfect.
 Because the incentive to research political candidates
-is low, so-called democracies function more like plutocracies.[^6][^7] Because
+is low, so-called democracies function more like plutocracies.[^6] [^7] Because
 boards of directors are insufficiently aligned with shareholders' interests,
 managers are often selected and compensated based on their ability to schmooze
-rather than their ability to drive results.[^8][^9][^10] And because economies
+rather than their ability to drive results.[^8] [^9] [^10] And because economies
 don't reward the creation or maintenance of [public goods](https://metaproph3t.github.io/posts/public_goods.html),
 not enough time or resources goes to creating and maintaining them.[^11][^12]
 
