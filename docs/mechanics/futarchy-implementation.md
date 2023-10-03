@@ -1,50 +1,13 @@
 ---
 layout: default
-title: Old Mechanics
-nav_order: 3
+title: Futarchy implementation
+parent: Mechanics
+nav_order: 2
 ---
 
-# Mechanics
+# How the Meta-DAO implements futarchy
 
-## Futarchy
-
-> Since speculative markets excel at a task where democracies struggle, we might try to
-> improve democracy by having it rely more on speculative markets.\
-> Robin Hanson, *[Shall We Vote on Values, But Bet on Beliefs?](http://hanson.gmu.edu/futarchy2013.pdf)*
-
-The Meta-DAO uses a mechanism called *futarchy* to make its decisions. Futarchy
-was invented by economist Robin Hanson in 2000 and has been discussed at length
-by figures such as [Vitalik Buterin](https://blog.ethereum.org/2014/08/21/introduction-futarchy)
-and [Ralph Merkle](https://www.ralphmerkle.com/papers/DAOdemocracyDraft.pdf)
-(as in Merkle trees), but has never been instantiated before.
-
-The basic idea of futarchy is to pass decision-making authority to markets.
-To demonstrate, let's take an example: deciding whether or not to fire the CEO.
-If the company in question were run as a futarchy, it would make the decision
-in the following way:
-1. Two markets are created for the company's stock: one 'retain CEO' market and
-one 'fire CEO' market. 
-2. Investors are allowed to trades in these markets for some time period, say 10
-days.
-3. After the 10 days have elapsed, the company looks at the price of its stock
-in both markets. If the time-weighted average price (TWAP) is higher in the
-'retain CEO' market, the CEO is retained and all of the trades in the 'fire CEO'
-market are reverted. Else, the CEO is fired and all of the trades in the 'retain
-CEO' market are reverted.
-
-The benefit of this approach is that markets:
-- incentivize participants to research how decisions will affect asset values
-- incentivize participants to 'correct' any mispricings
-- give more power over time to those who have a track record of being right
-- are hard to manipulate
-
-In practice, markets often outperform experts. Prediction markets outperform professional pollsters
-in predicting elections. Commodities futures markets outperform government forecasts
-in predicting weather. And famously, while it took the government 2 months to
-identify the Morton-Thiakol O-Rings as the root cause of the Challenger crash,
-the markets had reflected it so in Morton-Thiakol's share price within 14 minutes.
-
-## How the Meta-DAO implements futarchy
+## Overview
 
 The Meta-DAO is implemented as 3 open-source programs on the Solana blockchain:
 - a *conditional vault* program,
@@ -55,7 +18,7 @@ and the final arbiter of all DAO decisions.
 
 Additionally, *META* is the native token of the Meta-DAO.
 
-### Conditional vault program
+## Conditional vault program
 
 Because we have no ability to revert finalized Solana transactions, we need
 different way to simulate reverting markets. The conditional vault program allows
@@ -81,7 +44,7 @@ traded for 'fire CEO' conditional SOL.[^1] If the CEO isn't fired, the Meta-DAO
 reverts both tokens' vaults, and it's like all of the trades are reverted: everyone
 gets back their original SOL and their original META.
 
-### CLOB program
+## CLOB program
 
 Unfortunately, although a few central-limit order books (CLOBs) exist on Solana,
 none of them provide on-chain TWAPs. So we [built our own](https://metaproph3t.github.io/posts/yalob.html).
@@ -94,7 +57,7 @@ far from the last one.
 All code is unaudited, so the CLOB also contains a series of runtime invariants,
 for example checking that the total liabilities are never greater than total assets.
 
-### Autocrat
+## Autocrat
 
 The central program of the Meta-DAO is autocrat, specifically `autocrat_v0`.
 
@@ -116,26 +79,4 @@ of the pass market is higher than the TWAP of the fail market, and if it is
 executes the SVM instruction, finalizes the pass market, and reverts the fail
 market. If it isn't, autocrat ignores the SVM instruction, reverts the fail market,
 and finalizes the pass market.
-
-## Future designs for scalability
-
-The careful reader may realize that futarchy doesn't scale. That is, it's good
-for big decisions like whether to fire the CEO, but less so for smaller decisions
-like whether to fire a division leader, because those actions may be too
-inconsequential to reflect in the share price. We designed a solution to this
-problem, which is described [here](https://github.com/metaDAOproject/Manifesto/blob/main/Manifesto.pdf)
-and 
-[here](https://medium.com/@metaproph3t/from-corporations-to-nations-how-the-meta-dao-is-going-to-change-everything-part-3-16b3880fd86c).[^2]
-In the interest of starting small and iterating, the Meta-DAO will be launched
-as basic futarchy, the scheme described above. But it would be possible to migrate
-to a more scalable scheme in the future, if the market decided it so.
-
-----
-
-[^1]: Of course, a decentralized organization like the Meta-DAO can't have a CEO
-to fire in the first place.
-[^2]: This design is where the 'Meta-DAO' name comes from.
-[^1]: http://maloney.people.clemson.edu/855/9.pdf
-[^2]: See, for example, https://snapshot.org/#/lido-snapshot.eth/proposal/0x37c958cfa873f6b2859b280bc4165fbdf15b1141b62844712af3338d5893c6c8
-
 
