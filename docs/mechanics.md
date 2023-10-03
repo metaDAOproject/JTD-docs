@@ -18,7 +18,7 @@ by figures such as [Vitalik Buterin](https://blog.ethereum.org/2014/08/21/introd
 and [Ralph Merkle](https://www.ralphmerkle.com/papers/DAOdemocracyDraft.pdf)
 (as in Merkle trees), but has never been instantiated before.
 
-The basic idea of futarchy is to pass decision-making authority to markets.
+The basic idea of futarchy is to **give decision-making authority to markets.**
 To demonstrate, let's take an example: deciding whether or not to fire the CEO.
 If the company in question were run as a futarchy, it would make the decision
 in the following way:
