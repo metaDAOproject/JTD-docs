@@ -42,7 +42,7 @@ Because the incentive to research political candidates
 is low, so-called democracies function more like plutocracies.[^6] [^7] Because
 boards of directors are insufficiently aligned with shareholders' interests,
 managers are often selected and compensated based on their ability to schmooze
-rather than their ability to drive results.[^8] [^9] [^10] And because economies
+rather than their ability to drive results.[^8]<sup>,</sup>[^9]<sup>,</sup>[^10] And because economies
 don't reward the creation or maintenance of [public goods](https://metaproph3t.github.io/posts/public_goods.html),
 not enough time or resources goes to creating and maintaining them.[^11][^12]
 
