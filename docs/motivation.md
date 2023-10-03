@@ -49,8 +49,7 @@ not enough time or resources goes to creating and maintaining them.[^11]<sup>,</
 ## A radical new approach is needed
 
 Basically, we need a new approach. Better leadership cannot save us when the
-machine that selects the leaders is broken. We must not wait for our politicians
-and business managers to become virtuous and smart. Instead, we must create a
+machine that selects the leaders is broken. Instead, we must create a
 new alternative system. While [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) 
 provides an alternative money and [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance)
 provides an alternative financial system, we need an alternative society.
