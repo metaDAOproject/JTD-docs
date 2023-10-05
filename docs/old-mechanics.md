@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mechanics
+title: Old Mechanics
 nav_order: 3
 ---
 
