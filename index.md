@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Home
 layout: home
 nav_order: 1
 ---
@@ -18,4 +18,5 @@ the Meta-DAO uses [futarchy](https://mason.gmu.edu/~rhanson/futarchy.html).
 **On November 8th 2023, the Meta-DAO will be opened to the world**. Anyone will be
 able to participate in the *initial bootstrapping event*, which will distribute
 the Meta-DAO's native token. 
+
 

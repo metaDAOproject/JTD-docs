@@ -6,6 +6,14 @@ nav_order: 3
 
 # Mechanics
 
+How the Meta-DAO works
+{: .fs-6 .fw-300 }
+
+## Table of contents
+
+1. TOC
+{:toc}
+
 ## Futarchy
 
 > Since speculative markets excel at a task where democracies struggle, we might try to
