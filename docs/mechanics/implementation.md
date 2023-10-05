@@ -21,7 +21,7 @@ and the final arbiter of all DAO decisions.
 
 Additionally, *META* is the native token of the Meta-DAO.
 
-<img src="../../img/3programs.png" width="400"/>
+<img src="../../img/3programs.png" width="200"/>
 
 ## Conditional vault program
 
@@ -49,7 +49,7 @@ traded for 'fire CEO' conditional SOL.[^1] If the CEO isn't fired, the Meta-DAO
 reverts both tokens' vaults, and it's like all of the trades are reverted: everyone
 gets back their original SOL and their original META.
 
-<img src="../../img/conditional-vault-v3.png" width="400"/>
+<img src="../../img/conditional-vault-v3.png" width="200"/>
 
 ## CLOB program
 
