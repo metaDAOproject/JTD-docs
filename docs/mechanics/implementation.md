@@ -21,6 +21,8 @@ and the final arbiter of all DAO decisions.
 
 Additionally, *META* is the native token of the Meta-DAO.
 
+![](../../img/3programs.png)
+
 ## Conditional vault program
 
 Because we have no ability to revert finalized Solana transactions, we need
@@ -47,6 +49,8 @@ traded for 'fire CEO' conditional SOL.[^1] If the CEO isn't fired, the Meta-DAO
 reverts both tokens' vaults, and it's like all of the trades are reverted: everyone
 gets back their original SOL and their original META.
 
+![](../../img/conditional-vault-v3.png)
+
 ## CLOB program
 
 Unfortunately, although a few central-limit order books (CLOBs) exist on Solana,
@@ -59,6 +63,8 @@ far from the last one.
 
 All code is unaudited, so the CLOB also contains a series of runtime invariants,
 for example checking that the total liabilities are never greater than total assets.
+
+![](../../img/clob-v2.png)
 
 ## Autocrat
 
@@ -82,4 +88,6 @@ of the pass market is higher than the TWAP of the fail market, and if it is
 executes the SVM instruction, finalizes the pass market, and reverts the fail
 market. If it isn't, autocrat ignores the SVM instruction, reverts the fail market,
 and finalizes the pass market.
+
+![](../../img/autocrat-2.png)
 
