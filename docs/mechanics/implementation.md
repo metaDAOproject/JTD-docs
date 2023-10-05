@@ -21,7 +21,7 @@ and the final arbiter of all DAO decisions.
 
 Additionally, *META* is the native token of the Meta-DAO.
 
-<img src="../../img/3programs.png" width="200"/>
+<img src="../../img/3programs.png" width="500"/>
 
 ## Conditional vault program
 
@@ -49,7 +49,7 @@ traded for 'fire CEO' conditional SOL.[^1] If the CEO isn't fired, the Meta-DAO
 reverts both tokens' vaults, and it's like all of the trades are reverted: everyone
 gets back their original SOL and their original META.
 
-<img src="../../img/conditional-vault-v3.png" width="200"/>
+<img src="../../img/conditional-vault-v3.png" width="500"/>
 
 ## CLOB program
 
@@ -64,7 +64,7 @@ far from the last one.
 All code is unaudited, so the CLOB also contains a series of runtime invariants,
 for example checking that the total liabilities are never greater than total assets.
 
-<img src="../../img/clob-v2.png" width="400"/>
+<img src="../../img/clob-v2.png" width="500"/>
 
 ## Autocrat
 
@@ -89,5 +89,5 @@ executes the SVM instruction, finalizes the pass market, and reverts the fail
 market. If it isn't, autocrat ignores the SVM instruction, reverts the fail market,
 and finalizes the pass market.
 
-<img src="../../img/autocrat-2.png" width="400"/>
+<img src="../../img/autocrat-2.png" />
 
