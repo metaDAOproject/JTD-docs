@@ -4,7 +4,10 @@ layout: home
 nav_order: 1
 ---
 
-# The Meta-DAO: An experiment in human coordination
+# The Meta-DAO
+
+An experiment in human coordination
+{: .fs-6 .fw-300 }
 
 The Meta-DAO is a new cybernetic institution managed by programs stored
 on [the Solana blockchain](https://solana.com/). Instead of 
