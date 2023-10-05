@@ -22,7 +22,7 @@ and
 
 To be clear, the Meta-DAO will be launched as a simple futarchy, not using these
 designs. But it would be possible to migrate in the future if the market decied
-it do.
+it so.
 
 ---- 
 
