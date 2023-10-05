@@ -7,6 +7,9 @@ nav_order: 1
 
 # Futarchy
 
+The fundamental mechanism of the Meta-DAO
+{: .fs-6 .fw-300 }
+
 ## Overview
 
 > Since speculative markets excel at a task where democracies struggle, we might try to

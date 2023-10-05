@@ -1,15 +1,18 @@
 ---
 layout: default
-title: Futarchy implementation
+title: Implementation
 parent: Mechanics
 nav_order: 2
 ---
 
-# How the Meta-DAO implements futarchy
+# Implementation
+
+How the Meta-DAO implements futarchy
+{: .fs-6 .fw-300 }
 
 ## Overview
 
-The Meta-DAO is implemented as 3 open-source programs on the Solana blockchain:
+The Meta-DAO is composed of 3 open-source programs on the Solana blockchain:
 - a *conditional vault* program,
 - a *central-limit order book (CLOB)* program,
 - and a program that manages that orchestrates futarchy, named *autocrat* as
