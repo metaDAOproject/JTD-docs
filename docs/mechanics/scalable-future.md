@@ -21,7 +21,7 @@ and
 [here](https://medium.com/@metaproph3t/from-corporations-to-nations-how-the-meta-dao-is-going-to-change-everything-part-3-16b3880fd86c).[^1]
 
 To be clear, the Meta-DAO will be launched as a simple futarchy, not using these
-designs. But it would be possible to migrate in the future if the market decied
+designs. But it would be possible to migrate in the future if the market decided
 it so.
 
 ---- 
