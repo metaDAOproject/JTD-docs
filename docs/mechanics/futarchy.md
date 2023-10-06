@@ -12,12 +12,11 @@ The fundamental mechanism of the Meta-DAO
 
 ## Overview
 
-> Since speculative markets excel at a task where democracies struggle, we might try to
-> improve democracy by having it rely more on speculative markets.\
-> **Robin Hanson**, *[Shall We Vote on Values, But Bet on Beliefs?](http://hanson.gmu.edu/futarchy2013.pdf)*
-{: .fs-4 .fw-300 }
+> *Since speculative markets excel at a task where democracies struggle, we might try to
+> improve democracy by having it rely more on speculative markets.*\
+> Robin Hanson, [Shall We Vote on Values, But Bet on Beliefs?](http://hanson.gmu.edu/futarchy2013.pdf)
 
-The Meta-DAO uses a mechanism called *futarchy* to make its decisions. Futarchy
+The Meta-DAO uses a mechanism called futarchy to make its decisions. Futarchy
 was invented by economist Robin Hanson in 2000 and has been discussed at length
 by figures such as [Vitalik Buterin](https://blog.ethereum.org/2014/08/21/introduction-futarchy)
 and [Ralph Merkle](https://www.ralphmerkle.com/papers/DAOdemocracyDraft.pdf)
