@@ -101,7 +101,7 @@ a product that's managed by the Meta-DAO.[^3]
 The requisite conditional vaults and markets are created at the same time.
 
 <div style="text-align: center;">
-<img src="../../img/autocrat-proposal-create.png" width="500"/>
+<img src="../../img/autocrat-proposal-create.png" width="600"/>
 </div>
 
 After a configurable amount of time (currently 10 days), anyone
@@ -111,7 +111,9 @@ executes the SVM instruction, finalizes the pass market, and reverts the fail ma
 Otherwise, it marks the proposal as failed,
 finalizes the fail market, and reverts the pass market.
 
+<div style="text-align: center;">
 <img src="../../img/autocrat-finalize.png" />
+</div>
 
 ----
 
