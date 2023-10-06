@@ -15,35 +15,32 @@ How the Meta-DAO implements futarchy
 The Meta-DAO is composed of 3 open-source programs on the Solana blockchain:
 - a *conditional vault* program,
 - a *central-limit order book (CLOB)* program,
-- and a program that manages that orchestrates futarchy, named *autocrat* as
-a double-entendre playing on the fact that the program is both *auto*nomous
-and the final arbiter of all DAO decisions.
+- and *autocrat*, the program that orchestrates futarchy.[^1]
 
-Additionally, *META* is the native token of the Meta-DAO.
+*META* is the native token.
 
 <img src="../../img/3programs.png" width="500"/>
 
 ## Conditional vault program
 
-Because we have no ability to revert finalized Solana transactions, we need
-different way to simulate reverting markets. The conditional vault program allows
-us to do this through the creation of *conditional tokens*. The way that these
-conditional tokens work is described here.
+As described in [futarchy]("./futarchy.md"), futarchy requires the ability to
+'revert' trades in a market so that everyone gets back their original tokens.
+Unfortunately, Solana doesn't allow one to revert transactions after they've
+been finalized, so we needed a mechanism to *simulate* reverting trades. That
+mechanism is conditional tokens.
 
-Anyone can create a *conditional vault*, which is tied to a specific
-*underlying token* and *settlement authority* (the Meta-DAO account would be the
-settlement authority of all vaults created for the purposes of futarchy).
-
-Once a conditional vault is created, anyone can deposit underlying tokens into
-it in exchange for conditional tokens. The vault also records their deposit
-separately.
+Before minting conditional tokens, someone needs to create a *conditional vault*.
+Conditional vaults are each tied to a specific *underlying token* and *settlement
+authority*. Then, anyone can deposit underlying tokens into the vault in exchange
+for an equivalent number of conditional tokens.
 
 At any time, the settlement authority can either *finalize* or *revert* a vault.
 If a vault becomes finalized, all current conditional token holders can claim
 the same number of underlying tokens. If a vault becomes reverted, all depositors
 can claim back what they originally deposited.
 
-This allows us to simulate reverting markets without reverting any transactions.
+This allows us to revert markets without reverting any transactions. For example,
+consider a market where conditional META 
 For example, we could have a market where 'fire CEO' conditional META are
 traded for 'fire CEO' conditional SOL.[^1] If the CEO isn't fired, the Meta-DAO
 reverts both tokens' vaults, and it's like all of the trades are reverted: everyone
@@ -91,3 +88,7 @@ and finalizes the pass market.
 
 <img src="../../img/autocrat-2.png" />
 
+----
+
+[^1]: The name 'autocrat' is a double-entendre: the program is to a large extent
+the dictator of the Meta-DAO, and it is also just computer code.
