@@ -18,14 +18,13 @@ The fundamental mechanism of the Meta-DAO
 
 The Meta-DAO uses a mechanism called futarchy to make its decisions. Futarchy
 was invented by economist Robin Hanson in 2000 and has been discussed at length
-by figures such as [Vitalik Buterin](https://blog.ethereum.org/2014/08/21/introduction-futarchy)
-and [Ralph Merkle](https://www.ralphmerkle.com/papers/DAOdemocracyDraft.pdf)
+by people like Vitalik Buterin and Ralph Merkle
 (as in Merkle trees), but has never been instantiated before.
 
 The basic idea of futarchy is to **give decision-making authority to markets.**
 
-We can demonstrate with an example: a futarchic company deciding whether to fire
-the CEO. It would do the following:
+We can demonstrate with an example: a company deciding whether or not to fire
+the CEO. If the company were run as a futarchy, it would do the following:
 1. Create two markets for the company's stock: one 'retain CEO' market and one
 'fire CEO' market.
 2. Allow investors to trade in these markets for some time period, such as 10 days.
@@ -35,40 +34,43 @@ retain the CEO and revert all trades in the 'fire CEO' market. If the TWAP is
 higher in the 'fire CEO' market, fire the CEO and revert all trades in the 'retain
 CEO market.'
 
+In essence, you allow the market to speculate on what the value of the company
+*would be* if the company did something, in this case fire the CEO, and then
+only do that thing if the market speculates that it would be good.
+
 ## Benefits
 
-In general, rational decisions are made by (1) aggregating all of the available
-information on the options and (2) selecting the best one. There's a large body
-of evidence that markets are better information-aggregators than other options,
-such as the obtaining the consensus of experts.
+Compared to the other ways of making decisions, markets have a number of benefits.
+To understand these, we can look at both the theory and the empirical evidence.
 
-### Theoretical evidence
+### Theoretical reasons why markets are superior
 
-> "In an efficient capital market, asset prices reflect all relevant information
-> and thus provide the best prediction of future events given the current information."\
+> *In an efficient capital market, asset prices reflect all relevant information
+> and thus provide the best prediction of future events given the current information.*\
 > Paul Rhode and Koleman Strumpf, [Historical Presidential Betting Markets](https://users.wfu.edu/strumpks/papers/JEP_2004.pdf)
 
 Markets are good for a number of theoretical reasons.
 
 For one, market participants are strongly incentivized to correct mispricings.
-For example, if 'Donald Trump win' shares are trading at 32 cents in a prediction
-market but he actually has a 50% chance of winning the election, market participants
-are strongly incentivized to buy up shares until they are priced at 50 cents.
+Consider, for example, election prediction markets.[^3] If Donald Trump has a 50%
+chance of winning but you can buy his shares at 32 cents on the dollar, you are
+incentivized to buy shares until the market price reaches 50 cents on the dollar. Conversely,
+if shares are trading at 65 cents on the dollar you are incentivized to either
+sell existing shares or sell short shares until the market price reaches 50 cents
+on the dollar.
 
 The downstream effect of this is that markets are hard to manipulate. Even deep-pocketed
-individuals will have trouble moving a market because doing so will open up opportunities
-to correct the mispricings.
+individuals will have trouble moving a market because doing so will open up 
+profitable opportunities for other participants to correct these mispricings.
 
 Markets also give more power over time to those who are better predictors. People
 who achieve high returns both naturally increase their capital and increase their
 ability to raise capital from outside investors.
 
-Finally, markets incentivize participants to do their research.
+### The evidence
 
-### Empirical evidence
-
-Theory aside, markets have repeatedly demonstrated themselves to be superior
-than alternatives in practice. Examples include:
+In practice, markets have repeatedly demonstrated them as superior instruments
+of aggregating information. Examples include:
 - Prediction markets outperform professional pollsters
 in predicting elections.
 - Commodities futures markets outperform government forecasts
@@ -101,6 +103,12 @@ and $128T larger than crypto's ~$1T. But the bond market probably doesn't reciev
 129x the attention that crypto does, which leads people to believe that normal
 markets are irrational. We believe that as crypto markets mature, they will look
 closer to the bond and equity markets.
+
+----
+
+[^1]: https://blog.ethereum.org/2014/08/21/introduction-futarchy
+[^2]: https://www.ralphmerkle.com/papers/DAOdemocracyDraft.pdf
+[^3]: To understand how election prediction markets work, see [the Wikipedia page](https://en.wikipedia.org/wiki/Election_stock_market).
 
 https://web.archive.org/web/20210513170717/https://www.sifma.org/resources/research/research-quarterly-fixed-income-issuance-and-trading-first-quarter-2021/
 
