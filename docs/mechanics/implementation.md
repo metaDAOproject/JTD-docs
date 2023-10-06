@@ -111,12 +111,7 @@ executes the SVM instruction, finalizes the pass market, and reverts the fail ma
 Otherwise, it marks the proposal as failed,
 finalizes the fail market, and reverts the pass market.
 
-if it is
-executes the SVM instruction, finalizes the pass market, and reverts the fail
-market. If it isn't, autocrat ignores the SVM instruction, reverts the fail market,
-and finalizes the pass market.
-
-<img src="../../img/autocrat-2.png" />
+<img src="../../img/autocrat-finalize.png" />
 
 ----
 
