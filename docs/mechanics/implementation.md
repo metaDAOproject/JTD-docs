@@ -19,20 +19,23 @@ The Meta-DAO is composed of 3 open-source programs on the Solana blockchain:
 
 *META* is the native token.
 
-<img src="../../img/3programs.png" width="500"/>
+<div style="text-align: center;">
+<img src="../../img/3programs.png" width="400"/>
+</div>
 
 ## Conditional vault program
 
-As described in [futarchy](./futarchy.md), futarchy requires the ability to
+As described in [futarchy](https://metadaoproject.github.io/docs/mechanics/futarchy.html),
+futarchy requires the ability to
 'revert' trades in a market so that everyone gets back their original tokens.
-Unfortunately, Solana doesn't allow one to revert transactions after they've
-been finalized, so we needed a mechanism to *simulate* reverting trades. That
-mechanism is conditional tokens.
+Unfortunately, blockchains don't allow you to revert transactions after they've
+been finalized, so we need a mechanism to *simulate* reverting transactions.
+That mechanism is conditional tokens.
 
 Before minting conditional tokens, someone needs to create a *conditional vault*.
 Conditional vaults are each tied to a specific *underlying token* and *settlement
-authority*. Then, anyone can deposit underlying tokens into the vault in exchange
-for an equivalent number of conditional tokens.
+authority*. Aftera vault has been created, anyone can deposit underlying tokens
+into it in exchange for an equivalent number of conditional tokens.
 
 <div style="text-align: center;">
 <img src="../../img/conditional-vault-deposit.png" width="500"/>
@@ -117,11 +120,6 @@ and finalizes the pass market.
 
 ----
 
-[^1]: The name 'autocrat' is a double-entendre: the program is to a large extent
-the dictator of the Meta-DAO, and it is also just computer code.
-[^2]: This CLOB incorporates the middle-price of the order book *at the beginning of each slot*
-into the TWAP, which makes manipulation hard because an attacker would have to
-either control blockspace or risk losing a substantial sum. The risks of such
-an attack are further weakened by [this logic](https://github.com/metaDAOproject/meta-dao/blob/e3dd1a4aa35dd3fedfa6fb38d77977dbbfb8d99e/programs/clob/src/state/order_book.rs#L109-L149), which prevents the current price observation from deviating
-very far from the last one.
+[^1]: The name 'autocrat' is a double-entendre: the program is to a large extent the dictator of the Meta-DAO, and it is also just computer code.
+[^2]: This CLOB incorporates the middle-price of the order book *at the beginning of each slot* into the TWAP, which makes manipulation hard because an attacker would have to either control blockspace or risk losing a substantial sum. The risks of such an attack are further weakened by [this logic](https://github.com/metaDAOproject/meta-dao/blob/e3dd1a4aa35dd3fedfa6fb38d77977dbbfb8d99e/programs/clob/src/state/order_book.rs#L109-L149), which prevents the current price observation from deviating very far from the last one.
 [^3]: For an example of a proposal like this, see [this Lido one](https://snapshot.org/#/lido-snapshot.eth/proposal/0x37c958cfa873f6b2859b280bc4165fbdf15b1141b62844712af3338d5893c6c8).
