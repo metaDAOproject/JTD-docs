@@ -23,7 +23,7 @@ The Meta-DAO is composed of 3 open-source programs on the Solana blockchain:
 
 ## Conditional vault program
 
-As described in [futarchy]("./futarchy.md"), futarchy requires the ability to
+As described in [futarchy](./futarchy.md), futarchy requires the ability to
 'revert' trades in a market so that everyone gets back their original tokens.
 Unfortunately, Solana doesn't allow one to revert transactions after they've
 been finalized, so we needed a mechanism to *simulate* reverting trades. That
@@ -34,19 +34,38 @@ Conditional vaults are each tied to a specific *underlying token* and *settlemen
 authority*. Then, anyone can deposit underlying tokens into the vault in exchange
 for an equivalent number of conditional tokens.
 
-At any time, the settlement authority can either *finalize* or *revert* a vault.
-If a vault becomes finalized, all current conditional token holders can claim
-the same number of underlying tokens. If a vault becomes reverted, all depositors
-can claim back what they originally deposited.
+<div style="text-align: center;">
+<img src="../../img/conditional-vault-deposit.png" width="500"/>
+</div>
 
-This allows us to revert markets without reverting any transactions. For example,
-consider a market where conditional META 
-For example, we could have a market where 'fire CEO' conditional META are
-traded for 'fire CEO' conditional SOL.[^1] If the CEO isn't fired, the Meta-DAO
-reverts both tokens' vaults, and it's like all of the trades are reverted: everyone
-gets back their original SOL and their original META.
+At any time, the settlement authority can either *finalize* or *revert* a vault.
+
+If a settlement authority finalizes a vault, current conditional token holders 
+can redeem their conditional tokens in exchange for an equal number of underlying
+tokens.
+
+<div style="text-align: center;">
+<img src="../../img/conditional-vault-finalize.png" width="500"/>
+</div>
+
+If a settlement authority reverts a vault, all conditional token minters can get
+back what their originally deposited. This has the same effect as reverting
+all of the transfers.
+
+<div style="text-align: center;">
+<img src="../../img/conditional-vault-revert.png" width="500"/>
+</div>
+
+For every proposal, the Meta-DAO creates four vaults. It designates one of these
+the conditional-on-pass META vault, one the conditional-on-fail META vault, one 
+the conditional-on-pass SOL vault, and one the conditional-on-fail SOL vault.
 
 <img src="../../img/conditional-vault-v3.png" width="500"/>
+
+This allows us to achieve the desired reverting of markets. If someone mints
+conditional-on-pass META and trades it for conditional-on-pass SOL, either the
+proposal will pass and they will receive SOL or the proposal will fail and they
+will receive their original META back.
 
 ## CLOB program
 
