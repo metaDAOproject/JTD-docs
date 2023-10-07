@@ -35,7 +35,7 @@ higher in the 'fire CEO' market, fire the CEO and revert all trades in the 'reta
 CEO market.'
 
 In essence, you allow the market to speculate on what the value of the company
-*would be* if the company did something, in this case fire the CEO, and then
+*would be* if the company did something, and then
 only do that thing if the market speculates that it would be good.
 
 ## Benefits
@@ -53,31 +53,32 @@ Markets are good for a number of theoretical reasons.
 
 For one, market participants are strongly incentivized to correct mispricings.
 Consider, for example, election prediction markets.[^3] If Donald Trump has a 50%
-chance of winning but you can buy his shares at 32 cents on the dollar, you are
-incentivized to buy shares until the market price reaches 50 cents on the dollar. Conversely,
+chance of winning but you can buy 'Donald Trump win' contracts at 32 cents on the
+dollar, you are incentivized to buy shares until the market price reaches 
+50 cents on the dollar. Conversely,
 if shares are trading at 65 cents on the dollar you are incentivized to either
 sell existing shares or sell short shares until the market price reaches 50 cents
-on the dollar.
+on the dollar. In general, when an asset's price deviates from its intrinsic value, market
+participants are incentivized to buy or sell it until the two equilibrate.
 
-The downstream effect of this is that markets are hard to manipulate. Even deep-pocketed
+The effect of this is that markets are hard to manipulate. Even deep-pocketed
 individuals will have trouble moving a market because doing so will open up 
 profitable opportunities for other participants to correct these mispricings.
 
-Markets also give more power over time to those who are better predictors. People
-who achieve high returns both naturally increase their capital and increase their
-ability to raise capital from outside investors.
+Another advantage is that markets give more power over time to those who are 
+better predictors. This is because high returns both directly increase a trader's
+capital and improve their ability to raise capital from investors.
 
 ### The evidence
 
 In practice, markets have repeatedly demonstrated them as superior instruments
 of aggregating information. Examples include:
 - Prediction markets outperform professional pollsters
-in predicting elections.
+in predicting elections.[^4]<sup>,</sup>[^5]
 - Commodities futures markets outperform government forecasts
-in predicting weather. 
-- Companies like [Google](https://googleblog.blogspot.com/2005/09/putting-crowd-wisdom-to-work.html)
-and [HP](https://authors.library.caltech.edu/44358/1/wp1131.pdf) have used prediction
-markets internally, with success. 
+in predicting weather.[^6]
+- Companies like Google and HP have successfully used prediction markets to forecast
+launch dates, printer sales, and new office openings.[^7]<sup>,</sup>[^8]
 - And famously, while it took the government 2 months to
 identify the Morton-Thiakol O-Rings as the root cause of the Challenger crash,
 the markets had priced it so in Morton-Thiakol's share price within 14 minutes.
@@ -96,21 +97,23 @@ For one, what we're searching for is not the Platonic ideal of a governance syst
 but merely one that is better than the others. Empirically and theoretically,
 markets appear to be better than other mechanisms of aggregating information.
 
-For two, situations where excessive speculation is involved tend to receive lots
-of reporting, whereas normal conditions go unreported. As of 2022, the size of
-the global bond market was $129T, $28T larger than the global equity market's $101T
-and $128T larger than crypto's ~$1T. But the bond market probably doesn't recieve
-129x the attention that crypto does, which leads people to believe that normal
-markets are irrational. We believe that as crypto markets mature, they will look
-closer to the bond and equity markets.
+Secondly, people tend to underestimate the rationality of markets because of
+the [frequency illusion](https://en.wikipedia.org/wiki/Frequency_illusion).
+Normal market conditions are boring and receive little media coverage. Periods
+of irrationality, such as the [GameStop short squeeze](https://en.wikipedia.org/wiki/GameStop_short_squeeze)
+receive lots of publicity. As crypto markets mature, we believe that they will
+look more like the mature and relatively rational bond and equity markets.
 
 ----
 
 [^1]: https://blog.ethereum.org/2014/08/21/introduction-futarchy
 [^2]: https://www.ralphmerkle.com/papers/DAOdemocracyDraft.pdf
 [^3]: To understand how election prediction markets work, see [the Wikipedia page](https://en.wikipedia.org/wiki/Election_stock_market).
+[^4]: https://repository.arizona.edu/bitstream/handle/10150/666656/azu_etd_hr_2021_0133_sip1_m.pdf?sequence=1
+[^5]: https://www.jstor.org/stable/40467652
+[^6]: https://www.jstor.org/stable/pdf/549.pdf?addFooter=false
+[^7]: https://googleblog.blogspot.com/2005/09/putting-crowd-wisdom-to-work.html
+[^8]: https://authors.library.caltech.edu/44358/1/wp1131.pdf
+[^9]: http://maloney.people.clemson.edu/855/9.pdf
 
-https://web.archive.org/web/20210513170717/https://www.sifma.org/resources/research/research-quarterly-fixed-income-issuance-and-trading-first-quarter-2021/
-
-https://www.sifma.org/resources/research/fact-book/
 
