@@ -19,7 +19,7 @@ The fundamental mechanism of the Meta-DAO
 The Meta-DAO uses a mechanism called futarchy to make its decisions. Futarchy
 was invented by economist Robin Hanson in 2000 and has been discussed at length
 by people like Vitalik Buterin and Ralph Merkle
-(as in Merkle trees), but has never been instantiated before.
+(as in Merkle trees), but has never been instantiated before.[^1]<sup>,</sup>[^2]
 
 The basic idea of futarchy is to **give decision-making authority to markets.**
 

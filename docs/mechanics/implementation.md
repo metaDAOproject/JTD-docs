@@ -34,7 +34,7 @@ That mechanism is conditional tokens.
 
 Before minting conditional tokens, someone needs to create a *conditional vault*.
 Conditional vaults are each tied to a specific *underlying token* and *settlement
-authority*. Aftera vault has been created, anyone can deposit underlying tokens
+authority*. After a vault has been created, anyone can deposit underlying tokens
 into it in exchange for an equivalent number of conditional tokens.
 
 <div style="text-align: center;">
@@ -52,7 +52,7 @@ tokens.
 </div>
 
 If a settlement authority reverts a vault, all conditional token minters can get
-back what their originally deposited. This has the same effect as reverting
+back what they originally deposited. This has the same effect as reverting
 all of the transfers.
 
 <div style="text-align: center;">
