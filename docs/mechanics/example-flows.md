@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Example Flows
+title: Example flows
 parent: Mechanics
 nav_order: 3
 ---
 
-# Example Flows
+# Example flows
 
 Some example flows that demonstrate how the Meta-DAO will work in practice
 {: .fs-6 .fw-300 }

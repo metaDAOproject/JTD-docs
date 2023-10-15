@@ -106,9 +106,9 @@ The requisite conditional vaults and markets are created at the same time.
 
 After a configurable amount of time (currently 10 days), anyone
 can trigger proposal finalization. In finalization, autocrat checks if the TWAP
-of the pass market is higher than the TWAP of the fail market, and if it is
+of the pass market is higher than the TWAP of the fail market. If it is, it
 executes the SVM instruction, finalizes the pass market, and reverts the fail market.
-Otherwise, it marks the proposal as failed,
+If it isn't, it marks the proposal as failed,
 finalizes the fail market, and reverts the pass market.
 
 <div style="text-align: center;">
