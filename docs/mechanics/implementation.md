@@ -12,7 +12,7 @@ How the Meta-DAO implements futarchy
 
 ## Overview
 
-The Meta-DAO is composed of 3 open-source programs on the Solana blockchain:
+The Meta-DAO is composed of [3 open-source programs](https://github.com/metaDAOproject/meta-dao) on the Solana blockchain:
 - a *conditional vault* program,
 - a *central-limit order book (CLOB)* program,
 - and *autocrat*, the program that orchestrates futarchy.[^1]
