@@ -25,11 +25,11 @@ From there, the SOL could be used to build products under the Meta-DAO umbrella
 (like a normal company), fund other projects in exchange for financial upside (like a VC
 fund), or even acquire other projects (like a blank check company).
 
-**Important to remember is that the Meta-DAO is an experiment. Although the
+*Important to remember is that the Meta-DAO is an experiment. Although the
 experiment may suceed and reshape the way that human civilization is organized,
 it may also fail. You should view the initial bootstrapping event as an opportunity
 to participate in this experiment, not as an opportunity to invest in an enterprise
-that will be legally bound to deliver you profits.**
+that will be legally bound to deliver you profits.*
 
 ## Distribution
 
