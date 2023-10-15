@@ -18,8 +18,8 @@ The fundamental mechanism of the Meta-DAO
 
 The Meta-DAO uses a mechanism called futarchy to make its decisions. Futarchy
 was invented by economist Robin Hanson in 2000 and has been discussed at length
-by people like Vitalik Buterin and Ralph Merkle
-(as in Merkle trees), but has never been instantiated before.[^1]<sup>,</sup>[^2]
+by people like Vitalik Buterin and Ralph Merkle (as in Merkle trees).[^1]<sup>,</sup>[^2]
+The Meta-DAO will be the first live instance of it.
 
 The basic idea of futarchy is to **give decision-making authority to markets.**
 
@@ -34,9 +34,12 @@ retain the CEO and revert all trades in the 'fire CEO' market. If the TWAP is
 higher in the 'fire CEO' market, fire the CEO and revert all trades in the 'retain
 CEO market.'
 
-In essence, you allow the market to speculate on what the value of the company
-*would be* if the company did something, and then
-only do that thing if the market speculates that it would be good.
+Because you revert the market when you don't take the action, the market can
+speculate on what the value of the company *would be* if the company did something
+without speculating on whether the company will actually do it.
+
+It is these speculatiions, rather than the opinions of any decision-maker, 
+that drive a futarchic organization's actions
 
 ## Benefits
 
@@ -77,32 +80,32 @@ of aggregating information. Examples include:
 in predicting elections.[^4]<sup>,</sup>[^5]
 - Commodities futures markets outperform government forecasts
 in predicting weather.[^6]
-- Companies like Google and HP have successfully used prediction markets to forecast
-launch dates, printer sales, and new office openings.[^7]<sup>,</sup>[^8]
-- And famously, while it took the government 2 months to
+- Companies like Google and HP have used prediction markets to succesfully forecast
+things like launch dates, printer sales, and the dates of new office openings.[^7]<sup>,</sup>[^8]
+- Famously, while it took the US government more than 5 months to
 identify the Morton-Thiakol O-Rings as the root cause of the Challenger crash,
-the markets had priced it so in Morton-Thiakol's share price within 14 minutes.
+the markets had priced it so in Morton-Thiakol's share price within 14 minutes.[^9]
 
 ## Drawbacks
 
 One of the largest drawbacks of markets is [Keynesian beauty contests](https://en.wikipedia.org/wiki/Keynesian_beauty_contest).
 In other words, sometimes investors buy what they think others will buy, not what
 they think the fundamentals support. This is especially evident in crypto markets
-because many tokens are [reflexively priced](https://www.epsilonmgmt.com/blog/reflexivity/),
+where many tokens are [reflexively priced](https://www.epsilonmgmt.com/blog/reflexivity/),
 and have no fundamentals.
 
 However, there are two counter-points to consider.
 
 For one, what we're searching for is not the Platonic ideal of a governance system,
 but merely one that is better than the others. Empirically and theoretically,
-markets appear to be better than other mechanisms of aggregating information.
+markets appear to be better than other prediction mechanisms.
 
 Secondly, people tend to underestimate the rationality of markets because of
 the [frequency illusion](https://en.wikipedia.org/wiki/Frequency_illusion).
 Normal market conditions are boring and receive little media coverage. Periods
 of irrationality, such as the [GameStop short squeeze](https://en.wikipedia.org/wiki/GameStop_short_squeeze)
-receive lots of publicity. As crypto markets mature, we believe that they will
-look more like the mature and relatively rational bond and equity markets.
+receive lots of publicity. So even though markets are rational most of the time,
+people only see the irrational moments.
 
 ----
 
