@@ -34,9 +34,9 @@ Somalia
 has weak property rights, and it hardly seems worth producing things when the local
 militants will extract away all of your profits.[^8]<sup>,</sup>[^9] Germany 
 is a democracy where
-political leaders must win the votes of their constituents; Somalia is an anarchy
-where power is won by bullets instead of ballots. Institutions are the source
-of Somalia's problems and of Germany's comparative abundance.[^10]
+political leaders must retain the support of their constituents. Somalia is an anarchy
+where power is won by brute force. Institutions are the source
+of both Somalia's problems and Germany's comparative abundance.[^10]
 
 ## Our institutions are failing us
 
@@ -53,18 +53,17 @@ Because economies
 don't reward the creation or maintenance of [public goods](https://metaproph3t.github.io/posts/public_goods.html),
 not enough time or resources goes to creating and maintaining them.[^13]<sup>,</sup>[^14]
 And although corporations are generally painted as rational and profit-maximizing,
-empirical research shows that boards of directors are often misaligned with shareholders
-and that managers
-are often selected and compensated based on their ability to network
-rather than their ability to drive results.[^15]<sup>,</sup>[^16]<sup>,</sup>[^17] 
+empirical research shows that boards of directors and managers often have very
+different incentives than their shareholders.[^15]<sup>,</sup>[^16]<sup>,</sup>[^17] 
 
 ## A radical new approach is needed
 
-Basically, we need a new approach. Better leadership cannot save us when the
-machine that selects the leaders is broken. Instead, we must create a
-new alternative system. While [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) 
+These are systemic problems and require systemic solutions. We cannot bank on
+better leadership when the machine that selects the leaders is broken.
+Instead, we can create an alternative system. While [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) 
 provides an alternative money and [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance)
-provides an alternative financial system, we need an alternative society.
+provides an alternative financial system, our goal is to create an alternative
+society.
 
 ----
 
