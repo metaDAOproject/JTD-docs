@@ -10,7 +10,7 @@ An experiment in human coordination
 {: .fs-6 .fw-300 }
 
 <div style="text-align: center;">
-<img src="./img/icon.jpg" width="400"/>
+<img src="./img/coffeeshop.jpg" width="400"/>
 </div>
 
 The Meta-DAO is a new cybernetic institution managed by programs stored
