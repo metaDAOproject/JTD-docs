@@ -9,6 +9,10 @@ nav_order: 1
 An experiment in human coordination
 {: .fs-6 .fw-300 }
 
+<div style="text-align: center;">
+<img src="./img/icon.jpg" width="400"/>
+</div>
+
 The Meta-DAO is a new cybernetic institution managed by programs stored
 on [the Solana blockchain](https://solana.com/). Instead of 
 [token-voting](https://acceleratedcapital.substack.com/i/36799446/ii-token-based-quorum-voting) or
