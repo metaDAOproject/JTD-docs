@@ -33,8 +33,8 @@ that will be legally bound to deliver you profits.*
 
 ## Distribution
 
-There will be no pre-mine or team allocation. All META will be distributed 
-through the initial bootstrapping event.
+Initially, there will be 1 million META. There will be no pre-mine or team allocation,
+so all 1 million will be distributed through the initial bootstrapping event.
 
 ![](../img/token-distribution.png)
 
@@ -44,8 +44,4 @@ the same futarchic decision-making process that every proposal is subject to.
 
 ## Mechanics
 
-WIP
-
-We are considering either an [Ethereum-style](https://blog.ethereum.org/2014/07/22/launching-the-ether-sale) uncapped issuance or a [Strata-style](https://github.com/StrataFoundation/strata)
-liquidity bootstrapping pool.
-
+The initial bootstrapping event will be conducted through an [Armada](https://docs.armadafi.so/initial-token-distribution) liquidity bootstrap curve (LBC). Further details will be posted on Twitter.
