@@ -14,14 +14,15 @@ How the Meta-DAO implements futarchy
 
 The Meta-DAO is composed of [3 open-source programs](https://github.com/metaDAOproject/meta-dao) on the Solana blockchain:
 - a *conditional vault* program,
-- a *central-limit order book (CLOB)* program,
+- a *time-weighted average price (TWAP)* program,
 - and *autocrat*, the program that orchestrates futarchy.[^1]
-
-*META* is the native token.
+All programs are open-source and verifiable.
 
 <div style="text-align: center;">
 <img src="../../img/3programs.png" width="400"/>
 </div>
+
+*META* is the native token of the Meta-DAO. 
 
 ## Conditional vault program
 
@@ -34,8 +35,11 @@ That mechanism is conditional tokens.
 
 Before minting conditional tokens, someone needs to create a *conditional vault*.
 Conditional vaults are each tied to a specific *underlying token* and *settlement
-authority*. After a vault has been created, anyone can deposit underlying tokens
-into it in exchange for an equivalent number of conditional tokens.
+authority*. In our case, the underlying token would be either META or USDC, and the
+settlement authority would always be the Meta-DAO.
+
+Once a vault is created, anyone can deposit underlying tokens in exchange for conditional
+tokens. You receive two types of conditional tokens: ones that are redeemable for underlying tokens if the vault is finalized and ones that are redeemable for underlying tokens if the vault is finalized. For example, if you deposit 10 USDC into a vault, you will receive 10 conditional-on-finalize USDC and 10 conditional-on-revert USDC.
 
 <div style="text-align: center;">
 <img src="../../img/conditional-vault-deposit.png" width="500"/>
@@ -43,50 +47,28 @@ into it in exchange for an equivalent number of conditional tokens.
 
 At any time, the settlement authority can either *finalize* or *revert* a vault.
 
-If a settlement authority finalizes a vault, current conditional token holders 
-can redeem their conditional tokens in exchange for an equal number of underlying
-tokens.
+If a settlement authority finalizes a vault, conditional-on-finalize token holders can redeem their conditional tokens for underlying tokens. Conversely, if a settlement authority reverts a vault, conditional-on-revert token holders can redeem their conditional tokens for underlying tokens. Because the finalization and reverting are mutually exclusive, total vault liabilities will never exceed total assets.
 
 <div style="text-align: center;">
 <img src="../../img/conditional-vault-finalize.png" width="500"/>
 </div>
 
-If a settlement authority reverts a vault, all conditional token minters can get
-back what they originally deposited. This has the same effect as reverting
-all of the transfers.
-
-<div style="text-align: center;">
-<img src="../../img/conditional-vault-revert.png" width="500"/>
-</div>
-
-For every proposal, the Meta-DAO creates four vaults. It designates one of these
-the conditional-on-pass META vault, one the conditional-on-fail META vault, one 
-the conditional-on-pass SOL vault, and one the conditional-on-fail SOL vault.
+For each proposal, the Meta-DAO creates two vaults: one for USDC and one for META. If a proposal passes, it finalizes both vaults. If a proposal fails, it reverts both vaults. So we call the conditional-on-finalize tokens *conditional-on-pass tokens* and the conditional-on-revert tokens *conditional-on-fail tokens*.
 
 <div style="text-align: center;">
 <img src="../../img/conditional-vault-v3.png" width="500"/>
 </div>
 
-This allows us to achieve the desired reverting of markets. If someone mints
-conditional-on-pass META and trades it for conditional-on-pass SOL, either the
-proposal will pass and they will receive SOL or the proposal will fail and they
-will receive their original META back.
+This allows us to achieve the desired reverting of trades. For example, if someone mints
+conditional-on-pass META and trades it for conditional-on-pass META, either the
+proposal will pass and they can redeem conditional-on-pass SOL for SOL or
+the proposal will fail and they can redeem their conditional-on-fail META for their original META.
 
-## CLOB program
+So we create two markets per proposal: one where conditional-on-pass META is traded for conditional-on-pass USDC and one where conditional-on-fail META is traded for conditional-on-fail USDC. This allows traders to express opinions like "this token would be worth $112 if the proposal passes, but it's only worth $105 if the proposal fails."
 
-These types of trades could theoretically be performed through any central-limit
-order book (CLOB) or automated market-maker (AMM). However, there existed no
-CLOBs or AMMs on Solana that provided on-chain TWAPs.
-So we [built one](https://metaproph3t.github.io/posts/yalob.html).[^2]
+## TWAP program
 
-The Meta-DAO creates two order books per proposal: one for trading conditional-on-pass
-META for conditional-on-pass SOL and one for trading conditional-on-fail META for
-conditional-on-fail SOL. We call the former a *conditional-on-pass market* and
-the latter a *conditional-on-fail market*.
-
-<div style="text-align: center;">
-<img src="../../img/clob.png" width="500"/>
-</div>
+All Meta-DAO markets are on [OpenBook v2](https://github.com/openbook-dex/openbook-v2). There didn't exist a TWAP oracle for OpenBook or for any other Solana AMM or CLOB, so we [built our own](https://github.com/metaDAOproject/openbook-twap). It uses the same design as [Uniswap V2](https://docs.uniswap.org/contracts/v2/concepts/core-concepts/oracles), and uses several mechanisms to ensure manipulation-resistance.
 
 ## Autocrat
 
