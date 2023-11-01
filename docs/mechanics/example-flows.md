@@ -14,19 +14,22 @@ Some example flows that demonstrate how the Meta-DAO will work in practice
 
 Governance attacks, like the one launched against Beanstalk Protocol, are 
 relatively uncommon but do happen.[^1] It's worth considering how the Meta-DAO would
-respond to such an attack.
+respond to such an attack. Suppose that an attacker has just submitted a proposal that transfer's all of the
+Meta-DAO's assets to himself. How is the community incentivized to respond? 
 
-Suppose that an attacker has just submitted a proposal that transfer's all of the
-Meta-DAO's assets to himself. How is the community incentivized to respond? Well,
+Well,
 if the proposal goes through, the Meta-DAO will be worth a lot less. For example,
 if the Meta-DAO is currently worth $100M
 and the proposal would transfer $40M of the Meta-DAO's liquid assets,
-then it should be worth $60M if the proposal goes through.[^2] So if you hold META
-and its current price is $1, you are incentivized to sell it in the conditional-on-pass
-market until its market price reaches $0.6. On the other hand, the proposal failing
-should not affect META's value at all, so it should trade near $1 in the conditional-on-fail
-market. As such, autocrat will fail this proposal, reverting the conditional-on-pass
-vaults such that those who conditionally sold can get back their META.
+then it should be worth $60M if the proposal goes through.[^2]
+
+So if you hold META
+and its current price is $1, you are incentivized to mint conditional-on-pass tokens
+and sell them until their market price reaches $0.6. On the other hand, the conditional-on-fail
+tokens should trade near $1. As such, autocrat should fail this proposal.
+
+Once autocrat fails the proposal, all trades in the conditional-on-pass market
+become reverted and all trades in the conditional-on-fail market become finalized.
 
 ## Example #2 - A good proposal
 
