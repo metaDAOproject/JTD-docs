@@ -21,7 +21,7 @@ All programs are open-source and verifiable.
 The Meta-DAO is built on top of [OpenBook V2](https://www.openbook-solana.com/)'s central limit order book. *META* is the native token of the Meta-DAO. 
 
 <div style="text-align: center;">
-<img src="../../img/program-overview.svg" width="400"/>
+<img src="../../img/program-overview.png" width="400"/>
 </div>
 
 ## Conditional vault program
