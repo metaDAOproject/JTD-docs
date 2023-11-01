@@ -56,7 +56,7 @@ If a settlement authority finalizes a vault, conditional-on-finalize token holde
 For each proposal, the Meta-DAO creates two vaults: one for USDC and one for META. If a proposal passes, it finalizes both vaults. If a proposal fails, it reverts both vaults. So we call the conditional-on-finalize tokens *conditional-on-pass tokens* and the conditional-on-revert tokens *conditional-on-fail tokens*.
 
 <div style="text-align: center;">
-<img src="../../img/conditional-vault-v3.png" width="500"/>
+<img src="../../img/meta-dao-vaults.png" width="500"/>
 </div>
 
 This allows us to achieve the desired reverting of trades. For example, if someone mints
