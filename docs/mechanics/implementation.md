@@ -19,7 +19,7 @@ The Meta-DAO is composed of [3 open-source programs](https://github.com/metaDAOp
 All programs are open-source and verifiable.
 
 <div style="text-align: center;">
-<img src="../../img/3programs.png" width="400"/>
+<img src="../../img/program-overview.svg" width="400"/>
 </div>
 
 *META* is the native token of the Meta-DAO. 
