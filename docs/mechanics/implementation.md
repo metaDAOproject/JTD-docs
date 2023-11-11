@@ -60,8 +60,8 @@ For each proposal, the Meta-DAO creates two vaults: one for USDC and one for MET
 </div>
 
 This allows us to achieve the desired reverting of trades. For example, if someone mints
-conditional-on-pass META and trades it for conditional-on-pass META, either the
-proposal will pass and they can redeem conditional-on-pass SOL for SOL or
+conditional-on-pass META and trades it for conditional-on-pass USDC, either the
+proposal will pass and they can redeem conditional-on-pass USDC for USDC or
 the proposal will fail and they can redeem their conditional-on-fail META for their original META.
 
 So we create two markets per proposal: one where conditional-on-pass META is traded for conditional-on-pass USDC and one where conditional-on-fail META is traded for conditional-on-fail USDC. This allows traders to express opinions like "this token would be worth $112 if the proposal passes, but it's only worth $105 if the proposal fails."
