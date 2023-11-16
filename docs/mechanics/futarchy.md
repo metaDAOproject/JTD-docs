@@ -38,7 +38,7 @@ Because you revert the market when you don't take the action, the market can
 speculate on what the value of the company *would be* if the company did something
 without speculating on whether the company will actually do it.
 
-It is these speculatiions, rather than the opinions of any decision-maker, 
+It is these speculations, rather than the opinions of any decision-maker, 
 that drive a futarchic organization's actions
 
 ## Benefits
