@@ -14,34 +14,15 @@ How the Meta-DAO will bootstrap futarchy and distribute its tokens
 Many crypto projects opt for an approach of gradual decentralization, where a centralized
 start-up builds the core products of the project and then slowly passes control
 over those products to the community. This is fine for most projects but doesn't
-align with our goals.
-
-Instead, the Meta-DAO will *start* decentralized. We will bootstrap this with
-an *initial bootstrapping event* which will distribute the META token. In the
-bootstrapping event, anyone will be able to buy META with SOL, and their SOL
-will go directly to the Meta-DAO's treasury.
-
-From there, the SOL could be used to build products under the Meta-DAO umbrella
-(like a normal company), fund other projects in exchange for financial upside (like a VC
-fund), or even acquire other projects (like a blank check company).
-
-*Important to remember is that the Meta-DAO is an experiment. Although the
-experiment may suceed and reshape the way that human civilization is organized,
-it may also fail. You should view the initial bootstrapping event as an opportunity
-to participate in this experiment, not as an opportunity to invest in an enterprise
-that will be legally bound to deliver you profits.*
-
-## Distribution
-
-Initially, there will be 1 million META. There will be no pre-mine or team allocation,
-so all 1 million will be distributed through the initial bootstrapping event.
-
-![](../img/token-distribution.png)
-
-Later, the Meta-DAO could mint new META, which could be used for accretive activities like
-compensating contributors or performing acquisitions. But that would be subject to
-the same futarchic decision-making process that every proposal is subject to.
+align with our goals. Instead, the Meta-DAO *started* decentralized.
 
 ## Mechanics
 
-The initial bootstrapping event will be conducted through an [Armada](https://docs.armadafi.so/initial-token-distribution) liquidity bootstrap curve (LBC). Further details will be posted on Twitter.
+On November 8th 2023, Proph3t took a snapshot of those eligible for the airdrop.
+On November 15th, the airdrop was distributed to those who scored at least a 7/10
+on the quiz. More can be found [here](https://hackmd.io/_rfw7y8sQrKOnCU3MW1i1g).
+
+All 10,000 of META's circulating supply was distributed by this airdrop, with
+the remaining 990,000 META held by the Meta-DAO's treasury. To bootstrap the
+Meta-DAO, Proph3t deposited 10,000 USDC into the Meta-DAO's treasury.
+

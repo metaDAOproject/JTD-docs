@@ -8,7 +8,7 @@ nav_order: 5
 
 ## Who created the Meta-DAO?
 
-Proph3t is the primary creator of the Meta-DAO. You can learn more about him
+Proph3t is the creator of the Meta-DAO. You can learn more about him
 [here](https://metaproph3t.github.io/) and his motivation [here](https://metaproph3t.github.io/posts/why_do_the_thing).
 
 ## Who will contribute to the Meta-DAO?
