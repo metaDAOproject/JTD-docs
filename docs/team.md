@@ -11,7 +11,7 @@ nav_order: 5
 Proph3t is the creator of the Meta-DAO. You can learn more about him
 [here](https://metaproph3t.github.io/) and his motivation [here](https://metaproph3t.github.io/posts/why_do_the_thing).
 
-## Who will contribute to the Meta-DAO?
+## Who contributes to the Meta-DAO?
 
 Anyone who wants to. There are no backdoor mechanisms that allow Proph3t or anyone
 else to gatekeep proposals. There is no 'Meta-DAO Foundation' or 'Meta-DAO Labs.'
