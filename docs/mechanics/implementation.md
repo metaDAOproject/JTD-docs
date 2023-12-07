@@ -39,7 +39,7 @@ authority*. In our case, the underlying token would be either META or USDC, and 
 settlement authority would always be the Meta-DAO.
 
 Once a vault is created, anyone can deposit underlying tokens in exchange for conditional
-tokens. You receive two types of conditional tokens: ones that are redeemable for underlying tokens if the vault is finalized and ones that are redeemable for underlying tokens if the vault is finalized. For example, if you deposit 10 USDC into a vault, you will receive 10 conditional-on-finalize USDC and 10 conditional-on-revert USDC.
+tokens. You receive two types of conditional tokens: ones that are redeemable for underlying tokens if the vault is finalized and ones that are redeemable for underlying tokens if the vault is reverted. For example, if you deposit 10 USDC into a vault, you will receive 10 conditional-on-finalize USDC and 10 conditional-on-revert USDC.
 
 <div style="text-align: center;">
 <img src="../../img/conditional-token-mint.png" width="500"/>
